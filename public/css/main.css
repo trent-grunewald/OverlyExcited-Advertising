@@ -1,15 +1,1 @@
-header {
-  background: red; }
-
-body {
-  background: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  color: purple; }
-
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtYWluLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJoZWFkZXIge1xuICBiYWNrZ3JvdW5kOiByZWQ7IH1cblxuYm9keSB7XG4gIGJhY2tncm91bmQ6IGJsYWNrO1xuICBkaXNwbGF5OiAtd2Via2l0LWJveDtcbiAgZGlzcGxheTogLW1zLWZsZXhib3g7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIC13ZWJraXQtYm94LW9yaWVudDogaG9yaXpvbnRhbDtcbiAgLXdlYmtpdC1ib3gtZGlyZWN0aW9uOiByZXZlcnNlO1xuICAgICAgLW1zLWZsZXgtZGlyZWN0aW9uOiByb3ctcmV2ZXJzZTtcbiAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93LXJldmVyc2U7XG4gIGNvbG9yOiBwdXJwbGU7IH1cbiJdLCJmaWxlIjoibWFpbi5jc3MifQ== */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}.landing{background:url(/public/images/landing.jpg);height:100vh}.test{background:url(/public/images/landing.jpg);height:100vh}body{font-family:'Roboto', sans-serif}h1{font-weight:100;font-size:50px}.home{height:100%;width:100%;text-align:center}.home img{width:100%;max-width:300px;margin:0 auto}.home .Aligner{min-height:100vh;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}.home .Aligner-item{max-width:50%}.home .menu ul li{padding:10px 15px;display:inline-block;font-family:'Roboto', sans-serif;font-size:18px;font-weight:500}.home .version-num{background:#E8E8E8;border-radius:4px;padding:7px 15px;display:inline-block;font-size:12px;margin:10px 0 20px}.home a{text-decoration:none;color:#30395C;transition:all 0.3s ease-in-out}.home a:hover{color:#43D4D6}
