@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 229:
+/***/ 228:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -117,4 +117,4 @@ _reactDom2.default.render(_react2.default.createElement(Layout, null), app);
 
 /***/ })
 
-},[229]);
+},[228]);
