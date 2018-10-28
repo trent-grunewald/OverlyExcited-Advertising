@@ -6,12 +6,17 @@
 
 body {
   font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
   // background: purple;
 }
 
 h1 {
   font-weight: 100;
   font-size: 50px;
+}
+
+.container{
+  margin: 0 10%;
 }
 
 .home {
