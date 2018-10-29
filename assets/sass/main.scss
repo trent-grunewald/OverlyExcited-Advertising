@@ -4,11 +4,17 @@
 @import "landing";
 @import "excitedQuote";
 @import "about";
+@import "services";
 
 body {
   font-family: 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   // background: purple;
+}
+
+i{
+  font-style: italic;
+  color: #9198a0;
 }
 
 h1 {
