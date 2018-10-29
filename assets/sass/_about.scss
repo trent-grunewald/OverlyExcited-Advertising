@@ -8,26 +8,42 @@
   }
 
   .meeting{
-    background: linear-gradient(50deg, #0039ff, #0090ff);
-    width: 40%;
-    height: 500px;
-    position: relative;
+    display: flex;
+    flex-flow: row;
 
-    img{
-    width: 800px;
-    margin-left: 20%;
-    position: absolute;
-    top: 25px;
-    box-shadow: 2px 4px 10px 0px #013fffc7;
+    .meetingBackground{
+      background: linear-gradient(50deg, #0039ff, #0090ff);
+      height: 500px;
+      position: relative;
+      flex: .75 1 auto;
+
+      img{
+        width: 800px;
+        margin: 0 20%;
+        position: absolute;
+        top: 25px;
+        box-shadow: 3px 3px 10px #0078d46e;
+      }      
     }
   }
 
   .meetingText{
-    margin: -40vh 20%;
-    width: 20%;
-    float: right;
-    text-align: center;
+    padding: 0 20%;
     font-weight: 600;
+    flex: .5 1;
+
+    .meetingHeader{
+      font-size: 20px;
+      line-height: 25px;
+      color: #0090ff;
+    }
+
+    .meetingBody{
+      font-size: 15px;
+      line-height: 25px;
+      color: #4a4c4e;
+      margin: 1.5em 0;
+    }
   }
   
 }
