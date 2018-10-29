@@ -1,6 +1,6 @@
 .services{
   margin: 10em 0;
-  .container{
+  .servicesGrid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 15px;
@@ -8,35 +8,47 @@
 }
 
 .card {
-cursor: pointer;
-background: white;
-padding: 20px;
-outline: 2px solid black;
-position: absolute;
-transform-style: preserve-3d;
-transition: all 1.25s ease-in-out;
-height: 450px;
-perspective: 600;
-position: relative;
+  cursor: pointer;
+  background: #f9f9f9;
+  padding: 20px;
+  /* outline: 2px solid black; */
+  /* position: absolute; */
+  transform-style: preserve-3d;
+  transition: all 1.25s ease-in-out;
+  height: 450px;
+  perspective: 600;
+  position: relative;
+  box-shadow: 0px 0px 10px $fc-black;
+
+  &:hover{
+    box-shadow: 0px 0px 10px #0078d46e;
+  }
+
+.side {
+  backface-visibility: hidden;
+  overflow: hidden;
+  }
+  .back {
+    padding: 20px;
+    background: #ffffff;
+    position: absolute;
+    transform: rotateY(180deg);
+    top: 0;
+    right: .5px;
+    height: 450px;
+    box-shadow: 0px 0px 10px $fc-black;
+
+    &:hover{
+    box-shadow: 0px 0px 10px #0078d46e;
+
+    }
+  } 
 }
+
 .flipped {
 transform: rotateY(180deg);
 }
-.card .side {
-backface-visibility: hidden;
-height: 100%;
-overflow: hidden;
-width: 100%;
-}
-.card .back {
-padding: 20px;
-background: #ffffff;
-position: absolute;
-transform: rotateY(180deg);
-top: 0;
-right: .5px;
-height: 450px;
-}
+
 
 .menuCard{
 display: none;
