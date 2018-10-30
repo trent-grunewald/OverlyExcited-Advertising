@@ -20,7 +20,7 @@
     box-shadow: 0px 0px 10px #312f2f;
 
   &:hover{
-    box-shadow: 0px 0px 10px #0078d46e;
+    box-shadow: 0px 0px 10px 3px #0078d4a1;
   }
 
 .side {
@@ -42,12 +42,14 @@
     transform: rotateY(180deg);
     top: 0;
     right: .5px;
-    height: 450px;
-    box-shadow: 0px 0px 10px $fc-black;
 
     &:hover{
     box-shadow: 0px 0px 10px #0078d46e;
+    }
 
+    i{
+      font-size: 25px;
+      padding: .75em;
     }
   } 
 
