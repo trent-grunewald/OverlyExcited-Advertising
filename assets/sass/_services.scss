@@ -1,5 +1,6 @@
 .services{
-  margin: 10em 0;
+  padding: 10em 0;
+  background: #f9f9f9;
   .servicesGrid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -9,16 +10,14 @@
 
 .card {
   cursor: pointer;
-  background: #f9f9f9;
-  padding: 20px;
-  /* outline: 2px solid black; */
-  /* position: absolute; */
-  transform-style: preserve-3d;
-  transition: all 1.25s ease-in-out;
-  height: 450px;
-  perspective: 600;
-  position: relative;
-  box-shadow: 0px 0px 10px $fc-black;
+    background: linear-gradient(50deg, #0039ff, #0090ff, #0090ff);
+    padding: 20px;
+    transform-style: preserve-3d;
+    transition: all 1.25s ease-in-out;
+    perspective: 600;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 0px 10px #312f2f;
 
   &:hover{
     box-shadow: 0px 0px 10px #0078d46e;
@@ -27,6 +26,14 @@
 .side {
   backface-visibility: hidden;
   overflow: hidden;
+  i{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .5em;
+    color: #003fff;
+  }
   }
   .back {
     padding: 20px;
@@ -43,7 +50,27 @@
 
     }
   } 
-}
+
+  .cardBody{
+    background: white;
+    border-radius: 5px;
+    color: $fc-blue;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 0 10%;
+
+    .cardHead{
+      padding: 2em 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: $fc-darkBlue;
+    }
+
+      p{
+        padding: 2em 0;
+      }
+    }
+  }
 
 .flipped {
 transform: rotateY(180deg);
