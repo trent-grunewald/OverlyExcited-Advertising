@@ -36,18 +36,25 @@
   }
   }
   .back {
-    padding: 20px;
-    background: #ffffff;
     position: absolute;
     transform: rotateY(180deg);
     top: 0;
     right: .5px;
+    height: 91%;
+    cursor: pointer;
+    background: linear-gradient(50deg, #0039ff, #0090ff, #0090ff);
+    padding: 20px;
+    transform-style: preserve-3d;
+    transition: all 1.25s ease-in-out;
+    perspective: 600;
+    border-radius: 5px;
 
     &:hover{
     box-shadow: 0px 0px 10px #0078d46e;
     }
 
     i{
+      color: #f9f9f9;
       font-size: 25px;
       padding: .75em;
     }
