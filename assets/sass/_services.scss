@@ -34,6 +34,19 @@
     padding-top: .5em;
     color: #003fff;
   }
+
+  p{
+    color: #9ea4ab;
+    text-align: right;
+    font-weight: 500;
+    font-size: 17px;
+    text-shadow: 1px 1px #003eff;
+    margin-bottom: 1em;
+
+    span{
+      font-style: italic;
+    }
+  }
   }
   .back {
     position: absolute;
@@ -45,7 +58,7 @@
     background: linear-gradient(50deg, #0039ff, #0090ff, #0090ff);
     padding: 20px;
     transform-style: preserve-3d;
-    transition: all 1.25s ease-in-out;
+    transition: all .5s ease-in-out;
     perspective: 600;
     border-radius: 5px;
 
