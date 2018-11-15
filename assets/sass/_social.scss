@@ -1,0 +1,34 @@
+.socialContainer{
+  display: flex;
+  flex-flow: row-reverse;
+
+  .socialBackground{
+    background: linear-gradient(50deg, #ffa500, #b97903);
+    height: 500px;
+    position: relative;
+    -ms-flex: .75 1 auto;
+    flex: .5 1 auto;
+    border-radius: 5px 0 0 5px;
+
+    img{
+      height: 450px;
+      width: 800px;
+      margin: 0 20%;
+      position: absolute;
+      top: 25px;
+      box-shadow: 3px 3px 10px #0078d46e;
+      border-radius: 5px;
+      right: 150px;
+    }
+  }
+
+  .socialText{
+    padding: 0 20%;
+    font-weight: 600;
+    flex: .5 1;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
